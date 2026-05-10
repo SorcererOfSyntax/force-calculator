@@ -4,7 +4,7 @@ mass = float(input("Enter mass: "))
 # Taking acceleration input
 acceleration = float(input("Enter acceleration: "))
 
-# Calculating force
+# Calculating force using mass and acceleration 
 force = mass * acceleration
 
 # Printing the result
