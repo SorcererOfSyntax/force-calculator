@@ -1,0 +1,19 @@
+# Taking mass input from user
+mass = float(input("Enter mass: "))
+
+# Taking acceleration input
+acceleration = float(input("Enter acceleration: "))
+
+# Calculating force
+force = mass * acceleration
+
+# Printing the result
+print("Force =", force)
+
+# Checking force type
+if force > 0:
+    print("Positive force")
+elif force < 0:
+    print("Negative force")
+else:
+    print("No force")	
